@@ -1,8 +1,9 @@
 .sectionTitle {
-  font-size: 28px;
+  font-size: 42px;
   font-weight: bold;
   padding-bottom: 1rem;
   color: #4f4f4f;
+  text-align: center;
 }
 
 @media (max-width: 600px) {

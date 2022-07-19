@@ -11,30 +11,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="max-w-4xl xl:max-w-7xl mx-auto my-8">
-        <div className="columns-1 lg:columns-2 mx-6">
+      <div className="max-w-4xl xl:max-w-7xl mx-auto my-auto py-48">
+        <div className="columns-1 mx-16">
           <div className="inline-block align-middle h-full">
             <div className="text-6xl font-extrabold pb-6">
              <span className="text-gray-800">Building IoT with </span>
              <br />
              <span className="text-indigo-600">blockchain solutions</span>
             </div>
-            <div className="text-gray-800 text-lg">
+            <div className="text-gray-800 text-lg max-w-2xl">
               SYNPASE+ aims to create a robust technological ecosystem where different health technological solutions can coexist to bring our society better health outcomes, care quality and client experiences by leveraging on distributed ledger technologies.
             </div>
           </div>
-          <div className="w-50 float-right">
-            <Image src="/../public/pill-banner-2.jpg" alt="Pill Image" layout="fill" height="480" width="480" />
-          </div>
         </div>
       </div>
-      <div className="">
-        <div className="py-6 bg-indigo-100">
+      <div className="content-container">
+        <div className="py-14 bg-indigo-100">
           <div className="max-w-4xl mx-auto">
             <div className={styles.sectionTitle}>
               About
             </div>
-            <div>
+            <div className="text-center w-8/12 mx-auto leading-6 pb-4">
               SYNAPSE+ came to birth amidst the SARS-CoV-19 pandemic in 2021 with the focus of alleviating the economical and healthcare burdens that the historical global event has inevitably caused. Our company has won the 1st runner up in the COVID-19 Hackathon 2021 hosted by Imperial College and have also since qualified as the L’Oreal’s Global Brandstorm National Finalist. 
             </div>
           </div>
@@ -44,7 +41,7 @@ export default function Home() {
             <div className={styles.sectionTitle}>
               What does our name mean?
             </div>
-            <div>
+            <div className="text-center w-8/12 mx-auto leading-6 pb-4">
               As the Oxford Dictionary of Biochemistry and Molecular Biology defines, ‘synapse’ is the junction between a nerve fibre of one neuron and another neuron; the site of interneuronal communication. Our name was inspired by our vision to becoming the connecting line between the differentiated silos within our healthcare system, a place where the different parts of our healthcare ecosystem could find the balance to interact and communicate with each other.
             </div>
           </div>
@@ -54,19 +51,9 @@ export default function Home() {
             <div className={styles.sectionTitle}>
               Mission
             </div>
-            <div>
+            <div className="text-center w-8/12 mx-auto leading-6 pb-4">
               We design technological solutions and help our clients move towards the next level of services and futureproof systems by providing analytics through deep-learning, AI and ML capabilities. Our clients consist mainly of healthcare businesses and entities; hence we understand the importance of security, speed and quality. We work with each of our clients to customise their own solutions according to pre-existing workflows to optimise their technological systems through leveraging of distributed technology that ensures immutability, speed and traceability.
             </div>
-          </div>
-        </div>
-        <div className="py-6">
-        <div className="max-w-4xl mx-auto">
-          <div className={styles.sectionTitle}>
-            Vision
-          </div>
-          <div>
-            
-          </div>
           </div>
         </div>
       </div>
